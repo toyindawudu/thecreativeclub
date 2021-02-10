@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+header {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.logo {
+  flex: 4;
+}
+
+nav {
+  flex:2;
+}
+
+.header-logo {
+  width: 25px;
+  margin-left: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link{
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+a {
+  color: $accent;
+}
